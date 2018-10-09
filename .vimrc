@@ -3,6 +3,9 @@ scriptencoding utf-8
 set fileencodings=utf-8,cp932,sjis,utf-16le
 set fileformats=unix,dos
 
+execute pathogen#infect()
+execute pathogen#helptags()
+
 syntax enable
 filetype plugin indent on
 
@@ -29,17 +32,6 @@ augroup imrc
     autocmd!
     autocmd FileType vim setlocal keywordprg=:help
 augroup END
-
-""""""""""""""""""""""""""""""
-" プラグインのセットアップ
-""""""""""""""""""""""""""""""
-call plug#begin('~/.vim/plugged')
-Plug 'davidhalter/jedi-vim'
-Plug 'thinca/vim-quickrun'
-Plug 'terryma/vim-multiple-cursors'
-call plug#end()
-
-let g:quickrun_config={'*': {'split': 'vertical'}}
 
 " カーソルキー無効
 map <Up> <Nop>
