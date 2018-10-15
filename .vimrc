@@ -42,3 +42,4 @@ inoremap <Up> <Nop>
 inoremap <Down> <Nop>
 inoremap <Left> <Nop>
 inoremap <Right> <Nop>
+nnoremap <Leader>ev :e ~/dotfiles/.vimrc<CR>
