@@ -19,6 +19,7 @@ set wildmenu
 set iminsert=0
 set hlsearch
 set autoindent
+set imdisable
 
 set noundofile
 set backup
@@ -43,3 +44,5 @@ inoremap <Down> <Nop>
 inoremap <Left> <Nop>
 inoremap <Right> <Nop>
 nnoremap <Leader>ev :e ~/dotfiles/.vimrc<CR>
+nnoremap <Leader>cv :e ~/dotfiles/cheatsheets/vim.text<CR>
+
