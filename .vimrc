@@ -45,4 +45,5 @@ inoremap <Left> <Nop>
 inoremap <Right> <Nop>
 nnoremap <Leader>ev :e ~/dotfiles/.vimrc<CR>
 nnoremap <Leader>cv :e ~/dotfiles/cheatsheets/vim.text<CR>
-
+inoremap <silent> jj <ESC>
+nnoremap <silent><C-e> :NERDTreeToggle<CR>

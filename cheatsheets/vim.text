@@ -23,7 +23,8 @@ cw ..change word + insert mode (cはチェンジ！！)
 db ..delete backword
 bdw ..backword+delete word
 daw .delate a word （うしろからでも、まえからでも）
-d2w,2dw,dw. .. delete two word, 2
+d2w,2dw,dw. .. delete two word
+2yy,5dd まとめて行削除
 
 ★検索
 * 単語を検索　nで次の単語
