@@ -1,0 +1,11 @@
+set lines=40
+set columns=80
+set expandtab
+set tabstop=2
+set shiftwidth=2   
+set nobackup
+set noswapfile
+set number
+set guifont=Mono:h14
+" set linespace=2.5
+colorscheme solarized
